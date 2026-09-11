@@ -95,3 +95,25 @@ section {
 .card-body {
     padding: 1rem;
 }
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+.contact-list li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.contact-list li:last-child {
+    border-bottom: none;
+}
+.contact-list a{
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+.contact-list a:hover {
+    text-decoration: underline;
